@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    image: aasim99/website:0.0.1 # Replace with the name you used for your Docker image
+    ports:
+      - "8080:80"
+    restart: always
